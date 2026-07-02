@@ -50,6 +50,45 @@ It should:
 - Help identify repeated strengths and repeated mistakes.
 - Support structured review over impulsive reaction.
 
+# The Three Layers
+
+## System
+
+The system defines how NicOS works.
+
+It holds the operating philosophy, rules, lifecycle logic, and coordination patterns.
+
+## Modules
+
+Modules are permanent knowledge domains.
+
+They should preserve long-term knowledge in areas such as:
+
+- Trading
+- Investing
+- Betting
+- Restaurant
+- Business
+- Reflection
+- Health
+- Learning
+
+## Projects
+
+Projects are temporary initiatives with a beginning and an end.
+
+They are workspaces, not permanent knowledge repositories.
+
+Projects should create:
+
+- experiments
+- plans
+- execution work
+- decisions
+- lessons
+
+When a project is finished, the useful knowledge it generates should be distilled back into the right module.
+
 # Modules
 
 NicOS should grow through focused modules rather than one giant system.
@@ -64,8 +103,25 @@ Future modules include:
 - Investing
 - Restaurant
 - Business
+- Reflection
 - Health
 - Learning
+
+# The Project Layer
+
+Projects give NicOS motion.
+
+Modules store the long-term knowledge.
+
+Projects create the short-term action and focused effort.
+
+The relationship should be:
+
+Modules guide projects.
+
+Projects generate knowledge.
+
+Knowledge returns to modules.
 
 # What The Trading Module Is
 
