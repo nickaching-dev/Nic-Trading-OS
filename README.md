@@ -4,6 +4,8 @@ NicOS is Nic's personal operating system for life, learning, projects, and decis
 
 It is designed to help Nic think more clearly, separate good process from noise, and build systems that improve judgment over time.
 
+Start with [DASHBOARD.md](/Users/nic/Documents/Investing/DASHBOARD.md).
+
 NicOS now works across three layers:
 
 - `SYSTEM`
@@ -154,6 +156,7 @@ Current starter projects:
 
 ## Start here
 
+- Read `DASHBOARD.md`
 - Read `VISION.md`
 - Read `system/principles.md`
 - Read `system/project_lifecycle.md`
