@@ -2,7 +2,7 @@
 
 This module is reserved for Nic's long-term investing system.
 
-Trading and betting should not be mixed into this area.
+Trading should not be mixed into this area.
 
 ## Purpose
 

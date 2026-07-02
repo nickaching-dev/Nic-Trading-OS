@@ -28,7 +28,7 @@ Nic
 
 ## Goal
 
-Design and evolve NicOS so it can support trading, betting, projects, and future life domains with clean structure and useful workflows.
+Design and evolve NicOS so it can support trading, projects, and future life domains with clean structure and useful workflows.
 
 ## Success Criteria
 
@@ -40,9 +40,9 @@ Design and evolve NicOS so it can support trading, betting, projects, and future
 ## Milestones
 
 - Establish system and module layers
-- Add betting as a separate module
 - Add project management as a first-class layer
 - Build repeatable sync and review workflows
+- Clarify what NicOS intentionally excludes
 - Move NicOS into live operation and refinement
 
 ## Current Progress
@@ -52,6 +52,7 @@ Design and evolve NicOS so it can support trading, betting, projects, and future
 - Sync protocol exists
 - Module templates exist
 - Specialized Bobby workspaces exist
+- Betting has been explicitly excluded from NicOS
 
 ## Next Actions
 
@@ -71,6 +72,7 @@ Design and evolve NicOS so it can support trading, betting, projects, and future
 - Decision quality is more important than system complexity
 - Modules store permanent knowledge
 - Projects are temporary workspaces
+- Betting is managed outside NicOS
 
 ## Risks
 

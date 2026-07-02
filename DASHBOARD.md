@@ -6,9 +6,12 @@
 - 📈 Bobby | Investments
 - 🍣 Bobby | Kitchen
 - 🌱 Bobby | Reflection
-- ⚽ Bobby | Betting
 
 Workspaces are where conversations happen. They are not projects.
+
+Betting is intentionally excluded from NicOS and is managed separately.
+
+The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
 
 ## Active Projects
 
@@ -22,7 +25,6 @@ Projects are temporary initiatives with goals, progress, and completion criteria
 
 - Trading
 - Investing
-- Betting
 - Restaurant
 - Reflection
 - Business
@@ -40,7 +42,6 @@ Modules store long-term knowledge.
 
 ## Next Actions
 
-- Confirm the betting guideline source of truth.
 - Run one live sync from a Bobby workspace.
 - Review the generated changes before committing.
 - Begin normal NicOS use.

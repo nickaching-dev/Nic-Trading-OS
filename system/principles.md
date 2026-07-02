@@ -8,7 +8,7 @@ NicOS should help Nic make better decisions, not simply take more actions.
 
 ## 2. Separate domains clearly
 
-Trading, betting, investing, health, business, and learning should have their own spaces so rules do not get mixed.
+Trading, investing, restaurant, reflection, health, business, and learning should have their own spaces so rules do not get mixed.
 
 ## 3. Process before outcomes
 
@@ -32,7 +32,7 @@ A written lesson reviewed later is more valuable than a forgotten insight.
 
 ## 8. Protect downside first
 
-In both trading and betting, avoiding avoidable damage matters more than chasing maximum action.
+In trading and other high-variance decisions, avoiding avoidable damage matters more than chasing action.
 
 ## 9. Build for the long game
 

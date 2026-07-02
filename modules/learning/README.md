@@ -1,6 +1,6 @@
 # Learning Module
 
-This module is reserved for Nic's general learning system outside of trading and betting.
+This module is reserved for Nic's general learning system outside of trading.
 
 Possible future use:
 

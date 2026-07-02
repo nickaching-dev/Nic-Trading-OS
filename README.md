@@ -42,7 +42,6 @@ Examples:
 
 - Trading
 - Investing
-- Betting
 - Restaurant
 - Business
 - Reflection
@@ -80,13 +79,14 @@ Knowledge should continuously flow back into the permanent modules.
 ## Module status
 
 - `Trading`: active
-- `Betting`: active with confirmed source of truth in `modules/betting/context/betting_guideline.md`
-- `Restaurant`: initialized with templates, awaiting first knowledge sync
-- `Reflection`: initialized with templates, awaiting first knowledge sync
-- `Investing`: initialized as a placeholder until durable investing knowledge is synced
+- `Investing`: initialized placeholder until durable investing knowledge is synced
+- `Restaurant`: initialized with templates
+- `Reflection`: initialized with templates
 - `Business`: placeholder
 - `Health`: placeholder
 - `Learning`: placeholder
+
+Betting is intentionally excluded from NicOS and is managed separately.
 
 ## Project system
 
@@ -125,14 +125,13 @@ The trading module is a beginner-friendly swing-trading operating system.
   - Risk vs reward
   - Patience and confirmation
 
-## Betting module
+## Boundary
 
-The betting module is a separate operating system for sports betting, starting with soccer.
+Betting is intentionally excluded from NicOS and is managed separately.
 
-- Source of truth: `modules/betting/context/betting_guideline.md`
-- Nic prefers reasoned picks over gut bets.
-- Models, betting logic, staking, and discipline are tracked separately from trading.
-- If any betting note conflicts with the guideline file, the guideline wins.
+Content from `Bobby | Betting` must not be written into this repository unless Nic later explicitly reverses that decision.
+
+The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
 
 ## Projects
 

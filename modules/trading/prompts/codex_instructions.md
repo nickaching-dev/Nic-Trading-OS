@@ -72,7 +72,7 @@ You are helping Nic build and maintain the trading module inside NicOS.
 - Do not encourage blind buying at support
 - Do not assume a trade is valid without confirmation and a defined risk plan
 - Do not record planned, hypothetical, or watchlist ideas as completed trades
-- Do not confuse trading notes with betting notes
+- Do not mix trading notes with unrelated conversations or other modules
 - Do not add features just because they feel powerful or busy
 - Do not optimize the system for activity over decision quality
 

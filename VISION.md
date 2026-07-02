@@ -6,7 +6,7 @@ It should help Nic become more thoughtful, more disciplined, and more consistent
 
 # Mission
 
-Capture every meaningful lesson, chart, trade, bet, project, and rule so that improvement compounds over time.
+Capture every meaningful lesson, chart, trade, project, and rule so that improvement compounds over time.
 
 The system should help Nic:
 
@@ -66,7 +66,6 @@ They should preserve long-term knowledge in areas such as:
 
 - Trading
 - Investing
-- Betting
 - Restaurant
 - Business
 - Reflection
@@ -96,10 +95,9 @@ NicOS should grow through focused modules rather than one giant system.
 Module status today:
 
 - Trading: active
-- Betting: active with a confirmed source of truth
-- Restaurant: initialized with templates, awaiting first knowledge sync
-- Reflection: initialized with templates, awaiting first knowledge sync
-- Investing: initialized as a placeholder until durable investing knowledge is synced
+- Investing: initialized placeholder until durable investing knowledge is synced
+- Restaurant: initialized with templates
+- Reflection: initialized with templates
 - Business: placeholder
 - Health: placeholder
 - Learning: placeholder
@@ -134,17 +132,11 @@ It should:
 - Store chart analyses.
 - Generate meaningful review statistics over time.
 
-# What The Betting Module Is
+# Boundary
 
-The betting module is a separate operating system for Nic's sports betting workflow.
+Betting is intentionally excluded from NicOS and is managed separately.
 
-It should:
-
-- Store betting context.
-- Store simple models and assumptions.
-- Store a betting ledger.
-- Store rules for edge, staking, and discipline.
-- Store betting lessons and review notes.
+The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
 
 # What NicOS Is NOT
 

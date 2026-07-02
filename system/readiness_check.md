@@ -19,8 +19,9 @@ Checked on `2026-07-02`.
 ## Module Layer
 
 - [x] Trading templates exist
-- [x] Betting guideline source of truth is confirmed in `modules/betting/context/betting_guideline.md`
-- [x] Betting templates match the confirmed betting guideline by deferring to the source-of-truth file
+- [x] No `modules/betting/` directory remains
+- [x] No active NicOS documentation lists Betting as a module
+- [x] No commands or sync protocols target Betting
 - [x] Restaurant templates exist
 - [x] Reflection templates exist
 
@@ -34,5 +35,4 @@ Checked on `2026-07-02`.
 
 ## Notes
 
-- The betting guideline was found in prior Codex conversation context and matched the current local betting files.
-- If Nic supplies a newer betting guideline later, `modules/betting/context/betting_guideline.md` must be updated first.
+- Betting is intentionally excluded from NicOS and is managed separately.

@@ -27,14 +27,14 @@
 
 ## UPCOMING ACTIONS
 
+- Run the first real NicOS sync from an approved workspace
 - Define the next measurable improvement cycle for trading
 - Clarify the near-term direction and milestones for restaurant development
-- Continue building the NicOS system structure and project workflows
 
 ## RECENT KNOWLEDGE
 
 - Trading knowledge should flow into `modules/trading/`
-- Betting knowledge should stay inside `modules/betting/`
+- Betting is intentionally excluded from NicOS and is managed separately
 - Project lessons should be distilled into the right permanent module instead of staying trapped inside project notes
 
 ## LAST UPDATED

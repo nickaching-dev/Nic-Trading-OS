@@ -19,7 +19,10 @@ Files it may update:
 - `modules/*/rules/*.md`
 - `modules/*/lessons/*.md`
 - `modules/trading/journal/trades.csv` only if Nic explicitly says the trade was taken
-- `modules/betting/ledger/bets.csv` only if the current betting guideline says the bet should be logged
+
+Boundary:
+
+- Content from `Bobby | Betting` must not be written into NicOS unless Nic later explicitly reverses this decision
 
 ## `NicOS Status`
 
@@ -84,21 +87,6 @@ Files it may update:
 - `modules/trading/watchlist/*.md`
 - `modules/trading/lessons/*.md`
 - `modules/trading/journal/trades.csv` only if Nic explicitly says the trade was taken
-
-## `Betting Status`
-
-What it does:
-
-- Summarizes the state of the betting module against its confirmed source of truth
-- Checks whether context, templates, and ledger behavior are aligned
-
-Files it may update:
-
-- None by default
-- `modules/betting/context/latest_betting_sync.md`
-- `modules/betting/lessons/lessons_learned.md`
-- `modules/betting/context/betting_guideline.md` only if Nic explicitly supplies a new guideline
-- `modules/betting/ledger/bets.csv` only if the current logging rule is satisfied
 
 ## `Kitchen Status`
 
