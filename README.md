@@ -1,60 +1,80 @@
-# Trading OS v0.1
+# NicOS
 
-Trading OS v0.1 is Nic's beginner-friendly swing-trading operating system.
+NicOS is Nic's personal operating system for life, learning, projects, and decision-making.
 
-The goal is not to predict every move. The goal is to build a repeatable process for reviewing charts, managing risk, recording trades, and learning from mistakes over time.
+It is designed to help Nic think more clearly, separate good process from noise, and build systems that improve judgment over time. Trading is now the first active module inside NicOS, not the whole system. Betting is the second active module, with its own logic, discipline, and record-keeping separate from trading.
 
-## Core context
+## Purpose
 
-- User: `Nic`
-- Primary goal: build a personal swing-trading operating system
-- Long-term ETF investing is separate from swing trading
-- The `Moomoo` account is for learning swing trading
+NicOS exists to turn scattered ideas, lessons, plans, and results into structured improvement.
+
+The goal is not to build the busiest system.
+
+The goal is to build the most useful one.
+
+## Current active modules
+
+- `modules/trading/`
+- `modules/betting/`
+
+## Placeholder modules
+
+- `modules/investing/`
+- `modules/restaurant/`
+- `modules/business/`
+- `modules/health/`
+- `modules/learning/`
+
+## Top-level structure
+
+- `system/`
+- `modules/trading/`
+- `modules/betting/`
+- `modules/investing/`
+- `modules/restaurant/`
+- `modules/business/`
+- `modules/health/`
+- `modules/learning/`
+
+## How NicOS works
+
+1. Keep each area of life in its own module.
+2. Preserve rules, context, templates, and lessons in writing.
+3. Update the system when new evidence appears.
+4. Keep execution logs separate from planning notes.
+5. Optimize for better decisions, not more activity.
+
+## Trading module
+
+The trading module is a beginner-friendly swing-trading operating system.
+
+- Long-term ETF investing stays separate.
+- The `Moomoo` account is for learning swing trading.
 - Current focus:
   - Market structure
   - Support and resistance
   - Risk vs reward
   - Patience and confirmation
 
-## Trading OS structure
+## Betting module
 
-- `context/trading_profile.md`
-- `context/latest_chat_sync.md`
-- `rules/swing_trade_checklist.md`
-- `rules/risk_management.md`
-- `watchlist/WOLF.md`
-- `journal/trade_journal_template.md`
-- `journal/trades.csv`
-- `lessons/lessons_learned.md`
-- `prompts/codex_instructions.md`
-- `reports/monthly_review_template.md`
+The betting module is a separate operating system for sports betting, starting with soccer.
 
-## How to use this repo
-
-1. Read `context/trading_profile.md` to stay aligned with the purpose of the account.
-2. Check `context/latest_chat_sync.md` before making new changes or trade plans.
-3. Review `rules/swing_trade_checklist.md` and `rules/risk_management.md` before entering any trade.
-4. Update `watchlist/WOLF.md` or other watchlist files before acting on a setup.
-5. Log every trade in `journal/trade_journal_template.md` and `journal/trades.csv`.
-6. Capture mistakes and improvements in `lessons/lessons_learned.md`.
-7. Use `reports/monthly_review_template.md` at month-end to review both results and process.
+- Nic prefers reasoned picks over gut bets.
+- Models, betting logic, staking, and discipline are tracked separately from trading.
+- Bets are only logged when Nic explicitly formats them as real bets.
 
 ## Practical principles
 
 - A clear setup is better than a busy setup.
-- A skipped trade is better than a forced trade.
+- A skipped action is better than a forced action.
 - Good risk management matters more than excitement.
 - Confirmation matters more than prediction.
-- Process matters more than short-term profit.
+- Process matters more than short-term outcomes.
 
-## Current highlighted setup
+## Start here
 
-`WOLF` is the active starter watchlist name in this repo.
-
-- Support: `45-47`
-- First target: `53-55`
-- Higher target: `58-60`
-- Major resistance: `68-72`
-- Do not buy support blindly
-- Wait for bullish confirmation
-- Treat it as volatile and news-driven
+- Read `VISION.md`
+- Read `system/principles.md`
+- Read `system/sync_protocol.md`
+- Use the relevant module instead of mixing domains together

@@ -1,6 +1,6 @@
 # Risk And Behavior Fundamentals
 
-This note keeps the most useful beginner lessons from the older investing materials, adapted for Trading OS.
+This note keeps the most useful beginner lessons from the older materials, adapted for the NicOS trading module.
 
 ## Risk Tolerance vs Risk Capacity
 
@@ -20,7 +20,7 @@ Example:
 - Volatility is normal.
 - Volatility does not automatically mean the idea is good or bad.
 
-For Trading OS:
+For the trading module:
 
 - Do not confuse a fast move with a high-quality setup.
 - Do not assume a red candle means the market is broken.

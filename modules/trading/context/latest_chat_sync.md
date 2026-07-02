@@ -1,4 +1,4 @@
-# Latest Chat Sync
+# Latest Trading Chat Sync
 
 ## Sync Status
 
@@ -40,7 +40,7 @@
 - Write down the entry, stop, and target before entering.
 - Skip the trade if the setup is unclear.
 - Journal both good trades and bad trades only if the trade was actually taken.
-- Do not add a trade to `journal/trades.csv` unless Nic explicitly says the trade was taken.
+- Do not add a trade to `modules/trading/journal/trades.csv` unless Nic explicitly says the trade was taken.
 
 ## Next Useful Actions
 

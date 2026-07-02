@@ -1,10 +1,10 @@
-# Sync To Trading OS v0.2
+# Sync To Trading Module
 
 Use this workflow when Nic gives a ChatGPT conversation summary and wants the repository updated.
 
 ## Purpose
 
-Turn a conversation summary into clean updates inside Trading OS without mixing up:
+Turn a conversation summary into clean updates inside the NicOS trading module without mixing up:
 
 - context
 - watchlist ideas
@@ -14,11 +14,11 @@ Turn a conversation summary into clean updates inside Trading OS without mixing 
 
 ## Files This Workflow Can Update
 
-- `context/latest_chat_sync.md`
-- `watchlist/[TICKER].md`
-- `rules/swing_trade_checklist.md`
-- `lessons/lessons_learned.md`
-- `journal/trades.csv` only if an actual trade was taken
+- `modules/trading/context/latest_chat_sync.md`
+- `modules/trading/watchlist/[TICKER].md`
+- `modules/trading/rules/swing_trade_checklist.md`
+- `modules/trading/lessons/lessons_learned.md`
+- `modules/trading/journal/trades.csv` only if an actual trade was taken
 
 ## Core Rule
 
@@ -32,7 +32,7 @@ If the summary only discusses:
 - a hypothetical entry
 - a trade idea
 
-then do **not** add anything to `journal/trades.csv`.
+then do **not** add anything to `modules/trading/journal/trades.csv`.
 
 ## Step-By-Step Sync Flow
 
@@ -46,7 +46,7 @@ Ask:
 - Is this a lesson learned?
 - Was a real trade actually taken?
 
-### 2. Update `context/latest_chat_sync.md`
+### 2. Update `modules/trading/context/latest_chat_sync.md`
 
 Update this file when the summary changes:
 
@@ -57,16 +57,16 @@ Update this file when the summary changes:
 
 Keep it concise and practical.
 
-### 3. Update `watchlist/[TICKER].md`
+### 3. Update `modules/trading/watchlist/[TICKER].md`
 
 If the summary includes a specific ticker:
 
-- create `watchlist/[TICKER].md` if it does not exist
+- create `modules/trading/watchlist/[TICKER].md` if it does not exist
 - update support, resistance, targets, invalidation, and setup notes
 - keep the writeup practical and beginner-friendly
 - separate `watch` ideas from `entered` trades
 
-### 4. Update `rules/swing_trade_checklist.md`
+### 4. Update `modules/trading/rules/swing_trade_checklist.md`
 
 Only update the checklist if the summary reveals a repeated process lesson such as:
 
@@ -78,7 +78,7 @@ Only update the checklist if the summary reveals a repeated process lesson such 
 
 Do not rewrite the whole checklist unless needed. Add or refine rules carefully.
 
-### 5. Update `lessons/lessons_learned.md`
+### 5. Update `modules/trading/lessons/lessons_learned.md`
 
 Add or revise lessons when the summary reveals:
 
@@ -89,9 +89,9 @@ Add or revise lessons when the summary reveals:
 
 Keep lessons short and actionable.
 
-### 6. Update `journal/trades.csv` only if the trade was actually taken
+### 6. Update `modules/trading/journal/trades.csv` only if the trade was actually taken
 
-Only update `journal/trades.csv` if Nic explicitly confirms the trade happened.
+Only update `modules/trading/journal/trades.csv` if Nic explicitly confirms the trade happened.
 
 Examples of valid confirmation:
 
@@ -122,4 +122,4 @@ When syncing:
 
 ## Quick Decision Rule
 
-If there is any doubt about whether the trade happened, treat it as **not taken** and leave `journal/trades.csv` unchanged.
+If there is any doubt about whether the trade happened, treat it as **not taken** and leave `modules/trading/journal/trades.csv` unchanged.

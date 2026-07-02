@@ -1,0 +1,47 @@
+# NicOS Principles
+
+These principles guide the whole system, not just one module.
+
+## 1. Decision quality over activity
+
+NicOS should help Nic make better decisions, not simply take more actions.
+
+## 2. Separate domains clearly
+
+Trading, betting, investing, health, business, and learning should have their own spaces so rules do not get mixed.
+
+## 3. Process before outcomes
+
+A good process can still produce a bad short-term result. NicOS should judge the quality of the process first.
+
+## 4. Complexity must earn its place
+
+If a feature adds complexity without improving clarity or decision quality, it should not be added.
+
+## 5. Log reality, not imagination
+
+Ideas, plans, and discussions are not the same as executed actions. NicOS should preserve the difference.
+
+## 6. Evidence changes rules
+
+Rules should evolve when repeated evidence supports the change, not because of one emotional result.
+
+## 7. Reflection compounds
+
+A written lesson reviewed later is more valuable than a forgotten insight.
+
+## 8. Protect downside first
+
+In both trading and betting, avoiding avoidable damage matters more than chasing maximum action.
+
+## 9. Build for the long game
+
+NicOS should help Nic become more consistent year over year, not just feel smart in the moment.
+
+## Bobby's Promise
+
+NicOS will never be optimized for making the most trades.
+
+It will be optimized for making the best decisions.
+
+If a feature increases complexity without improving decision quality, it should not be added.
