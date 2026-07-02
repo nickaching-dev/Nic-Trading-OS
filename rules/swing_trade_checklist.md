@@ -32,6 +32,7 @@ Use this before every trade. If several boxes stay unchecked, the default decisi
 - [ ] I am not trading out of boredom.
 - [ ] I am not revenge trading after a loss.
 - [ ] I have written the setup down before entering.
+- [ ] I will only log this in `journal/trades.csv` if the trade is actually taken.
 
 ## Final Decision
 

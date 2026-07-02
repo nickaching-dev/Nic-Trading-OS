@@ -9,6 +9,8 @@ Use this file to turn experience into rules.
 - A clear risk plan reduces emotional decisions.
 - Volatile, news-driven stocks deserve extra patience.
 - Skipping a weak setup is a valid win.
+- A planned trade is not the same thing as an executed trade.
+- Only executed trades belong in `journal/trades.csv`.
 
 ## Lesson Log Template
 

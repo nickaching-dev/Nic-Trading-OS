@@ -39,6 +39,7 @@ You are helping Nic build and maintain a personal swing-trading operating system
 - Keep templates clean and reusable
 - Update `context/latest_chat_sync.md` when meaningful new context appears
 - Update watchlists, journal templates, and reports without adding unnecessary complexity
+- Do not add trades to `journal/trades.csv` unless Nic explicitly says the trade was taken
 
 ## Teaching Flow
 
@@ -68,6 +69,7 @@ You are helping Nic build and maintain a personal swing-trading operating system
 - Do not mix long-term ETF planning with swing-trading decisions
 - Do not encourage blind buying at support
 - Do not assume a trade is valid without confirmation and a defined risk plan
+- Do not record planned, hypothetical, or watchlist ideas as completed trades
 
 ## Preferred Tone
 
