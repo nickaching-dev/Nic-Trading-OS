@@ -58,7 +58,3 @@ The goal is not to predict every move. The goal is to build a repeatable process
 - Do not buy support blindly
 - Wait for bullish confirmation
 - Treat it as volatile and news-driven
-
-## Note
-
-Legacy investing-learning folders such as `agents/`, `curriculum/`, `notes/`, and `resources/` remain in the repo, but Trading OS v0.1 uses the structure listed above as the main workflow.
