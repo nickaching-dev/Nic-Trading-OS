@@ -115,6 +115,14 @@ Examples:
 - kitchen or restaurant insights -> `modules/restaurant/`
 - self-review insights -> `modules/reflection/`
 
+### Source-of-truth rule
+
+If a module has an explicit source-of-truth file, use it over older summaries, templates, or notes.
+
+Current confirmed source:
+
+- Betting -> `modules/betting/context/betting_guideline.md`
+
 ### Project boundary rule
 
 Projects are temporary workspaces.
@@ -133,7 +141,7 @@ Only add a row to `modules/trading/journal/trades.csv` if Nic explicitly says th
 
 #### Betting
 
-Only add a row to `modules/betting/ledger/bets.csv` if Nic writes the bet in the exact format ending with `- bet!`
+Only add a row to `modules/betting/ledger/bets.csv` if the current logging rule in `modules/betting/context/betting_guideline.md` is satisfied.
 
 If execution is unclear, do not log it.
 
@@ -226,20 +234,23 @@ module_affected:
 project_affected:
   - ""
 key_decisions:
-  - "Use the league model by default unless Nic explicitly says the match is a cup."
-  - "Require at least +3% edge before betting."
+  - "Confirmed the betting guideline as the source of truth for the module."
+  - "Aligned the latest betting sync and templates to the confirmed guideline."
 lessons_learned:
-  - "Model discipline matters more than action."
+  - "Betting docs stay cleaner when templates defer to one source-of-truth file."
 rules_added_or_changed:
-  - "Only log a bet if Nic writes it in the exact format ending with '- bet!'"
+  - "No new betting rule was added. The confirmed guideline now overrides older summaries."
 files_to_update:
+  - "modules/betting/context/betting_guideline.md"
   - "modules/betting/context/latest_betting_sync.md"
-  - "modules/betting/rules/decision_model.md"
-  - "modules/betting/lessons/lessons_learned.md"
+  - "modules/betting/templates/match_analysis_template.md"
+  - "modules/betting/templates/bet_review_template.md"
+  - "modules/betting/templates/ledger_entry_template.md"
 action_required: yes
 action_summary:
-  - "Update the current betting context and rules."
-  - "Do not update the ledger unless a real bet was logged."
+  - "Refresh the betting summary around the confirmed guideline."
+  - "Keep future betting syncs aligned with the source-of-truth file."
+  - "Do not update the ledger unless the current betting logging rule is satisfied."
 ```
 
 ## Final Rule

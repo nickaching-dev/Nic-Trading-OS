@@ -2,6 +2,7 @@
 
 Use this to capture a betting setup in distilled form before deciding whether a real bet exists.
 Capture distilled knowledge here, not full chat transcripts.
+Follow `modules/betting/context/betting_guideline.md` as the source of truth.
 
 ## Meta
 
@@ -9,12 +10,13 @@ Capture distilled knowledge here, not full chat transcripts.
 - Source workspace:
 - Fixture:
 - Market:
+- Guideline checked: `modules/betting/context/betting_guideline.md`
 - Last updated:
 
 ## Match Context
 
 - Competition:
-- Is this a cup fixture? `yes` / `no`
+- Special context explicitly supplied by Nic:
 - Model used:
 - Key insight:
 
@@ -28,7 +30,8 @@ Capture distilled knowledge here, not full chat transcripts.
 
 ## Decision View
 
-- Does it meet the `+3%` edge rule? `yes` / `no`
+- Does this setup satisfy the current decision rule in the betting guideline? `yes` / `no`
+- What part of the betting guideline matters most here?
 - Does the case rely on logic or gut?
 - What makes this attractive?
 - What makes this risky?

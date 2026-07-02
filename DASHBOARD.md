@@ -33,16 +33,17 @@ Modules store long-term knowledge.
 
 ## Current Focus
 
-- Build the NicOS structure.
-- Create clean sync workflows.
-- Keep knowledge distilled, not transcript-based.
+- Complete final readiness validation.
+- Run the first real `Sync to NicOS`.
+- Keep module content distilled rather than transcript-based.
+- Populate modules gradually through real use.
 
 ## Next Actions
 
-- Finalize project system.
-- Create sync protocol.
-- Create module templates.
-- Begin using `Sync to NicOS` after important conversations.
+- Confirm the betting guideline source of truth.
+- Run one live sync from a Bobby workspace.
+- Review the generated changes before committing.
+- Begin normal NicOS use.
 
 ## Operating Principle
 

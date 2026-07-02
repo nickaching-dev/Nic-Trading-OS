@@ -93,19 +93,16 @@ When a project is finished, the useful knowledge it generates should be distille
 
 NicOS should grow through focused modules rather than one giant system.
 
-Active modules today:
+Module status today:
 
-- Trading
-- Betting
-
-Future modules include:
-
-- Investing
-- Restaurant
-- Business
-- Reflection
-- Health
-- Learning
+- Trading: active
+- Betting: active with a confirmed source of truth
+- Restaurant: initialized with templates, awaiting first knowledge sync
+- Reflection: initialized with templates, awaiting first knowledge sync
+- Investing: initialized as a placeholder until durable investing knowledge is synced
+- Business: placeholder
+- Health: placeholder
+- Learning: placeholder
 
 # The Project Layer
 

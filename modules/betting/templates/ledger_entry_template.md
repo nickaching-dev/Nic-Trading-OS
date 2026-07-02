@@ -2,12 +2,14 @@
 
 Use this to convert a real bet into a clean ledger-ready entry.
 Capture distilled knowledge here, not full chat transcripts.
+Follow `modules/betting/context/betting_guideline.md` as the source of truth.
 
 ## Meta
 
 - Date:
 - Source workspace:
 - Fixture:
+- Guideline checked: `modules/betting/context/betting_guideline.md`
 - Last updated:
 
 ## Bet Details
@@ -24,7 +26,7 @@ Capture distilled knowledge here, not full chat transcripts.
 
 ## Logging Rule Check
 
-- Does the original bet end with `- bet!`? `yes` / `no`
+- Does the original message satisfy the current logging rule in `modules/betting/context/betting_guideline.md`? `yes` / `no`
 - If no, do not add it to the ledger.
 
 ## Ledger Row

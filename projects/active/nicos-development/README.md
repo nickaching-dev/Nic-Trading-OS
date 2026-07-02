@@ -43,19 +43,22 @@ Design and evolve NicOS so it can support trading, betting, projects, and future
 - Add betting as a separate module
 - Add project management as a first-class layer
 - Build repeatable sync and review workflows
+- Move NicOS into live operation and refinement
 
 ## Current Progress
 
 - NicOS root structure exists
-- Trading and betting modules exist
-- System principles and sync protocol exist
-- Project system is being added
+- Project system exists
+- Sync protocol exists
+- Module templates exist
+- Specialized Bobby workspaces exist
 
 ## Next Actions
 
-- Keep refining system clarity
-- Decide what cross-module dashboards matter most
-- Protect against unnecessary complexity
+- Run the first live `Sync to NicOS`
+- Review the generated changes before committing
+- Refine the system based on real use
+- Keep module content distilled rather than transcript-based
 
 ## Open Questions
 

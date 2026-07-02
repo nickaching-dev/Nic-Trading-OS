@@ -1,17 +1,23 @@
 # Latest Betting Sync
 
+This is the latest working betting summary.
+
+Source of truth: `betting_guideline.md`
+
+If this file conflicts with the guideline, the guideline wins.
+
 ## Sync Status
 
 - Sync date: `2026-07-02`
-- Status: starter module context
+- Status: betting guideline confirmed
 
 ## Current Operating Context
 
-- Nic uses sports betting mainly for soccer.
-- Nic prefers reasoned picks over gut bets.
+- Main sport: soccer
+- Decision style: reasoned picks over gut bets
 - Betting should stay separate from trading.
 
-## Model Summary
+## Confirmed Guideline Summary
 
 ### First-half goal model
 
@@ -25,24 +31,24 @@
 - Use second-half goals scored and conceded.
 - This can be triggered by the prefix `2h:`.
 
-## Betting Decision Rules
+### Betting decision model
 
 - Compare estimated probability against implied odds.
 - Require at least `+3%` edge.
 - Use medium-risk staking: `0.5x Kelly`.
 
-## Cup-Game Rule
+### Cup-game rule
 
 - Only apply a cup or single-leg boost when Nic explicitly says the fixture is a cup.
 - Otherwise use the league model by default.
 
-## Ledger Rule
+### Ledger rule
 
 - Only log a bet when Nic writes the bet in the exact format ending with `- bet!`
 - Do not log casual discussion as a bet.
 
 ## Next Useful Actions
 
-- Keep model notes simple and reviewable.
-- Track only real bets in the ledger.
-- Review whether the model edge and actual discipline match.
+- Use `betting_guideline.md` as the source of truth during future betting syncs.
+- Keep betting templates aligned with the confirmed guideline.
+- Only update `ledger/bets.csv` when the confirmed logging rule is satisfied.

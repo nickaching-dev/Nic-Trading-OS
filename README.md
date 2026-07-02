@@ -4,7 +4,7 @@ NicOS is Nic's personal operating system for life, learning, projects, and decis
 
 It is designed to help Nic think more clearly, separate good process from noise, and build systems that improve judgment over time.
 
-Start with [DASHBOARD.md](/Users/nic/Documents/Investing/DASHBOARD.md).
+Start with [DASHBOARD.md](DASHBOARD.md).
 
 NicOS now works across three layers:
 
@@ -77,19 +77,16 @@ Modules
 
 Knowledge should continuously flow back into the permanent modules.
 
-## Current active modules
+## Module status
 
-- `modules/trading/`
-- `modules/betting/`
-
-## Placeholder modules
-
-- `modules/investing/`
-- `modules/restaurant/`
-- `modules/business/`
-- `modules/reflection/`
-- `modules/health/`
-- `modules/learning/`
+- `Trading`: active
+- `Betting`: active with confirmed source of truth in `modules/betting/context/betting_guideline.md`
+- `Restaurant`: initialized with templates, awaiting first knowledge sync
+- `Reflection`: initialized with templates, awaiting first knowledge sync
+- `Investing`: initialized as a placeholder until durable investing knowledge is synced
+- `Business`: placeholder
+- `Health`: placeholder
+- `Learning`: placeholder
 
 ## Project system
 
@@ -132,9 +129,10 @@ The trading module is a beginner-friendly swing-trading operating system.
 
 The betting module is a separate operating system for sports betting, starting with soccer.
 
+- Source of truth: `modules/betting/context/betting_guideline.md`
 - Nic prefers reasoned picks over gut bets.
 - Models, betting logic, staking, and discipline are tracked separately from trading.
-- Bets are only logged when Nic explicitly formats them as real bets.
+- If any betting note conflicts with the guideline file, the guideline wins.
 
 ## Projects
 
@@ -159,6 +157,7 @@ Current starter projects:
 - Read `DASHBOARD.md`
 - Read `VISION.md`
 - Read `system/principles.md`
+- Read `system/commands.md`
 - Read `system/project_lifecycle.md`
 - Read `system/sync_protocol.md`
 - Read `projects/dashboard.md`

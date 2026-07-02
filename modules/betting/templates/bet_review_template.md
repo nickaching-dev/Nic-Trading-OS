@@ -2,6 +2,7 @@
 
 Use this after a real bet to review process and discipline honestly.
 Capture distilled knowledge here, not full chat transcripts.
+Follow `modules/betting/context/betting_guideline.md` as the source of truth.
 
 ## Meta
 
@@ -9,6 +10,7 @@ Capture distilled knowledge here, not full chat transcripts.
 - Source workspace:
 - Fixture:
 - Market:
+- Guideline checked: `modules/betting/context/betting_guideline.md`
 - Last updated:
 
 ## Bet Summary
@@ -35,10 +37,10 @@ Capture distilled knowledge here, not full chat transcripts.
 
 ## Discipline Check
 
-- Did the bet meet the `+3%` edge rule? `yes` / `no`
-- Was the correct model used? `yes` / `no`
-- Was staking disciplined? `yes` / `no`
-- Was this a real logged bet? `yes` / `no`
+- Did the bet follow the current decision rule in the betting guideline? `yes` / `no`
+- Was the model use consistent with the betting guideline? `yes` / `no`
+- Was staking consistent with the betting guideline? `yes` / `no`
+- Was logging consistent with the betting guideline? `yes` / `no`
 
 ## Lesson Learned
 
