@@ -26,15 +26,19 @@ Ideas, plans, and discussions are not the same as executed actions. NicOS should
 
 Rules should evolve when repeated evidence supports the change, not because of one emotional result.
 
-## 7. Reflection compounds
+## 7. Identity over outcomes
+
+NicOS should reinforce living in a way Nic respects, even before external results catch up.
+
+## 8. Reflection compounds
 
 A written lesson reviewed later is more valuable than a forgotten insight.
 
-## 8. Protect downside first
+## 9. Protect downside first
 
 In trading and other high-variance decisions, avoiding avoidable damage matters more than chasing action.
 
-## 9. Build for the long game
+## 10. Build for the long game
 
 NicOS should help Nic become more consistent year over year, not just feel smart in the moment.
 

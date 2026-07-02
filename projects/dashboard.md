@@ -27,7 +27,7 @@
 
 ## UPCOMING ACTIONS
 
-- Run the first real NicOS sync from an approved workspace
+- Review the first live NicOS sync and refine the system from real use
 - Define the next measurable improvement cycle for trading
 - Clarify the near-term direction and milestones for restaurant development
 

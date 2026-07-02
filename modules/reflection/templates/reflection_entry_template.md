@@ -14,6 +14,7 @@ Capture distilled knowledge here, not full chat transcripts.
 
 - What happened?
 - What mattered?
+- What promise did I keep?
 - Key insight:
 
 ## Emotional Read
@@ -25,6 +26,7 @@ Capture distilled knowledge here, not full chat transcripts.
 ## Decision Quality
 
 - Did I respond well? `yes` / `no`
+- Did I behave like someone I respect? `yes` / `no`
 - What would a better response have looked like?
 
 ## Action Required

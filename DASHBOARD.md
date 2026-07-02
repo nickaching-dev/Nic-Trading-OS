@@ -35,16 +35,17 @@ Modules store long-term knowledge.
 
 ## Current Focus
 
-- Complete final readiness validation.
-- Run the first real `Sync to NicOS`.
+- Continue live NicOS use.
 - Keep module content distilled rather than transcript-based.
 - Populate modules gradually through real use.
+- Strengthen the Reflection module with durable daily systems.
 
 ## Next Actions
 
-- Run one live sync from a Bobby workspace.
-- Review the generated changes before committing.
-- Begin normal NicOS use.
+- Review the applied Reflection sync.
+- Continue syncing important Bobby conversations.
+- Refine module structure only where real use creates pressure.
+- Begin weekly reflection reviews inside NicOS.
 
 ## Operating Principle
 

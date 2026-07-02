@@ -53,11 +53,12 @@ Design and evolve NicOS so it can support trading, projects, and future life dom
 - Module templates exist
 - Specialized Bobby workspaces exist
 - Betting has been explicitly excluded from NicOS
+- The first live NicOS sync has been applied through the Reflection module
 
 ## Next Actions
 
-- Run the first live `Sync to NicOS`
-- Review the generated changes before committing
+- Review how live syncs should land across modules
+- Continue syncing important Bobby conversations
 - Refine the system based on real use
 - Keep module content distilled rather than transcript-based
 
