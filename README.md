@@ -79,7 +79,7 @@ Knowledge should continuously flow back into the permanent modules.
 ## Module status
 
 - `Trading`: active
-- `Investing`: initialized placeholder until durable investing knowledge is synced
+- `Investing`: active with a first live sync applied
 - `Restaurant`: initialized with templates
 - `Reflection`: active with a first live sync applied
 - `Business`: placeholder

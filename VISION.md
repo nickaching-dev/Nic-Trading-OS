@@ -95,7 +95,7 @@ NicOS should grow through focused modules rather than one giant system.
 Module status today:
 
 - Trading: active
-- Investing: initialized placeholder until durable investing knowledge is synced
+- Investing: active with a first live sync applied
 - Restaurant: initialized with templates
 - Reflection: active with a first live sync applied
 - Business: placeholder
