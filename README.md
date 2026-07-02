@@ -1,51 +1,64 @@
-# Investing Teacher Agents
+# Trading OS v0.1
 
-This workspace is a beginner-first investing learning system built for someone starting from zero.
+Trading OS v0.1 is Nic's beginner-friendly swing-trading operating system.
 
-It does two things:
+The goal is not to predict every move. The goal is to build a repeatable process for reviewing charts, managing risk, recording trades, and learning from mistakes over time.
 
-1. Gives you reusable agent prompts that teach investing in a safe order.
-2. Gives you a starter curriculum backed by reputable sources instead of hype.
+## Core context
 
-This project is intentionally biased toward long-term, diversified, low-cost investing. It is not designed to teach day trading, options speculation, or hot-stock chasing.
+- User: `Nic`
+- Primary goal: build a personal swing-trading operating system
+- Long-term ETF investing is separate from swing trading
+- The `Moomoo` account is for learning swing trading
+- Current focus:
+  - Market structure
+  - Support and resistance
+  - Risk vs reward
+  - Patience and confirmation
 
-## What is inside
+## Trading OS structure
 
-- `agents/mentor-orchestrator.md`
-- `agents/foundations-coach.md`
-- `agents/risk-behavior-coach.md`
-- `agents/source-librarian.md`
-- `agents/quiz-coach.md`
-- `curriculum/00-start-here.md`
-- `curriculum/01-what-investing-is.md`
-- `curriculum/02-investment-vehicles.md`
-- `curriculum/03-risk-diversification.md`
-- `curriculum/04-index-funds-fees.md`
-- `curriculum/05-accounts-and-first-plan.md`
-- `curriculum/06-behavior-scams-and-next-steps.md`
-- `resources/sources.md`
-- `notes/learning-journal-template.md`
+- `context/trading_profile.md`
+- `context/latest_chat_sync.md`
+- `rules/swing_trade_checklist.md`
+- `rules/risk_management.md`
+- `watchlist/WOLF.md`
+- `journal/trade_journal_template.md`
+- `journal/trades.csv`
+- `lessons/lessons_learned.md`
+- `prompts/codex_instructions.md`
+- `reports/monthly_review_template.md`
 
-## Suggested way to use it
+## How to use this repo
 
-1. Start with `curriculum/00-start-here.md`.
-2. Use `agents/mentor-orchestrator.md` as the lead teacher.
-3. Move lesson by lesson instead of skipping ahead.
-4. Use `agents/quiz-coach.md` after each lesson.
-5. Use `agents/source-librarian.md` whenever you want more reading or videos.
+1. Read `context/trading_profile.md` to stay aligned with the purpose of the account.
+2. Check `context/latest_chat_sync.md` before making new changes or trade plans.
+3. Review `rules/swing_trade_checklist.md` and `rules/risk_management.md` before entering any trade.
+4. Update `watchlist/WOLF.md` or other watchlist files before acting on a setup.
+5. Log every trade in `journal/trade_journal_template.md` and `journal/trades.csv`.
+6. Capture mistakes and improvements in `lessons/lessons_learned.md`.
+7. Use `reports/monthly_review_template.md` at month-end to review both results and process.
 
-## Learning philosophy
+## Practical principles
 
-- Learn investing before learning products.
-- Learn risk before learning stock picking.
-- Learn behavior before making portfolio decisions.
-- Prefer broad diversification, low costs, and long time horizons.
-- Cross-check claims with regulator or major institution education pages.
+- A clear setup is better than a busy setup.
+- A skipped trade is better than a forced trade.
+- Good risk management matters more than excitement.
+- Confirmation matters more than prediction.
+- Process matters more than short-term profit.
 
-## Important note
+## Current highlighted setup
 
-This is education, not personalized financial, legal, or tax advice. If you are in the U.S., the account examples in Lesson 5 are the most relevant. If you are outside the U.S., keep the investing principles but swap in your local account types and tax rules.
+`WOLF` is the active starter watchlist name in this repo.
 
-## Source check date
+- Support: `45-47`
+- First target: `53-55`
+- Higher target: `58-60`
+- Major resistance: `68-72`
+- Do not buy support blindly
+- Wait for bullish confirmation
+- Treat it as volatile and news-driven
 
-The web and YouTube resource list in `resources/sources.md` was curated on June 8, 2026.
+## Note
+
+Legacy investing-learning folders such as `agents/`, `curriculum/`, `notes/`, and `resources/` remain in the repo, but Trading OS v0.1 uses the structure listed above as the main workflow.

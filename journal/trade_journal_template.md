@@ -15,7 +15,7 @@
 - Trend:
 - Support:
 - Resistance:
-- Catalyst or reason for interest:
+- Why this stock is on the watchlist:
 - Why this trade makes sense in plain English:
 - What would prove the trade wrong:
 
@@ -27,7 +27,7 @@
 - Target 2:
 - Reward-to-risk:
 - Did I wait for confirmation? `yes` / `no`
-- Did I mark the chart first? `yes` / `no`
+- Did I write the plan before entering? `yes` / `no`
 
 ## After The Trade
 
@@ -41,16 +41,13 @@
 - Did emotion affect the trade? `yes` / `no`
 - If yes, what emotion showed up?
 
-## Quick Reflection
+## Quick Review
 
 - Was this a good setup, even if it lost?
 - Was this a bad setup, even if it won?
 - Did I respect support, resistance, risk, and confirmation?
-- Would I take this trade again?
+- Would I take the same trade again?
 
-## End-Of-Week Review
+## One-Line Lesson
 
-- Best trade of the week:
-- Worst trade of the week:
-- Most common mistake:
-- One rule to focus on next week:
+- Main lesson from this trade:
