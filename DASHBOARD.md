@@ -38,14 +38,15 @@ Modules store long-term knowledge.
 - Continue live NicOS use.
 - Keep module content distilled rather than transcript-based.
 - Populate modules gradually through real use.
-- Strengthen the Reflection module with durable daily systems.
+- Keep Reflection and Investing active through clean ongoing syncs.
 
 ## Next Actions
 
-- Review the applied Reflection sync.
+- Continue normal NicOS use.
+- Review sync quality across Reflection and Investing.
 - Continue syncing important Bobby conversations.
 - Refine module structure only where real use creates pressure.
-- Begin weekly reflection reviews inside NicOS.
+- Begin regular review cycles inside NicOS.
 
 ## Operating Principle
 

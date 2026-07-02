@@ -27,13 +27,14 @@
 
 ## UPCOMING ACTIONS
 
-- Review the first live NicOS sync and refine the system from real use
+- Continue normal NicOS use and review sync quality from real use
 - Define the next measurable improvement cycle for trading
 - Clarify the near-term direction and milestones for restaurant development
 
 ## RECENT KNOWLEDGE
 
 - Trading knowledge should flow into `modules/trading/`
+- Reflection and Investing are now active through first live syncs
 - Betting is intentionally excluded from NicOS and is managed separately
 - Project lessons should be distilled into the right permanent module instead of staying trapped inside project notes
 

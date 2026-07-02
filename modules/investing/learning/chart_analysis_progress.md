@@ -2,7 +2,7 @@
 
 ## Status
 
-- Module: `Investments`
+- Module: `Investing`
 - Date updated: `2026-07-02`
 - Source workspace: `Bobby | Investments`
 
