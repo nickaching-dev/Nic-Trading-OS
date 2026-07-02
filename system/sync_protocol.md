@@ -1,112 +1,247 @@
 # NicOS Sync Protocol
 
-Use this protocol when Nic gives a ChatGPT summary, a conversation recap, or new operating context that should update the repository.
+This document defines the standard `Sync to NicOS` workflow.
 
-## Purpose
+## Core Principles
 
-Turn conversations into clean NicOS updates without confusing:
+1. Chats are for thinking.
+2. NicOS stores distilled knowledge, not full transcripts.
 
-- discussion with execution
-- one module with another
-- projects with permanent knowledge
-- new ideas with proven rules
+The purpose of a sync is to convert useful conversation output into clean, structured knowledge that improves the system over time.
 
-## Step 1. Classify the update
+## What Every Sync Must Identify
 
-Decide whether the summary belongs to:
+Every sync should identify:
 
-- `modules/trading/`
-- `modules/betting/`
-- another module
-- a project in `projects/active/`, `projects/completed/`, or `projects/archived/`
-- the whole system
+- Source workspace
+- Date
+- Module affected
+- Project affected, if any
+- Key decisions
+- Lessons learned
+- Rules added or changed
+- Files to update
+- Whether action is required
 
-If a summary touches more than one domain, split the update instead of mixing everything together.
+## Standard Format: `NICOS_SYNC_V1`
 
-## Step 2. Update the right context file
+Use this Markdown/YAML-style structure when turning a conversation into a NicOS update.
 
-Use the relevant context file first.
+```yaml
+# NICOS_SYNC_V1
+source_workspace: ""
+date: ""
+module_affected:
+  - ""
+project_affected:
+  - ""
+key_decisions:
+  - ""
+lessons_learned:
+  - ""
+rules_added_or_changed:
+  - ""
+files_to_update:
+  - ""
+action_required: yes
+action_summary:
+  - ""
+```
 
-- Trading: `modules/trading/context/latest_chat_sync.md`
-- Betting: `modules/betting/context/latest_betting_sync.md`
-- Projects: the relevant project file inside `projects/`
+## How To Use The Format
 
-If the summary changes the overall philosophy of the system, update:
+### 1. Start with the source
 
-- `README.md`
-- `VISION.md`
-- `system/principles.md`
-- `system/project_lifecycle.md` when lifecycle rules change
-
-## Step 3. Update the right operating documents
+Record where the thinking happened.
 
 Examples:
 
-- new trade setup -> trading watchlist
-- repeated trading mistake -> trading rules or lessons
-- new betting model detail -> betting models
-- new betting discipline lesson -> betting rules or lessons
-- active initiative update -> project file in `projects/active/`
-- finished initiative takeaway -> project lessons plus the right permanent module
+- `Bobby | Investments`
+- `Bobby | Kitchen`
+- `Bobby | Reflection`
+- `Bobby | Betting`
+- `Bobby | HQ`
 
-## Step 4. Keep execution logs strict
+### 2. Identify the module
 
-Execution logs should only contain real actions.
+Decide which permanent knowledge domain should receive the update.
 
-### Trading logging rule
+Examples:
 
-Only add a row to `modules/trading/journal/trades.csv` if Nic explicitly says the trade was taken.
+- `Trading`
+- `Betting`
+- `Restaurant`
+- `Reflection`
+- `Business`
+- `Learning`
 
-Do not log:
+### 3. Identify the project if relevant
 
-- watchlist ideas
-- hypothetical entries
-- planning notes
-- unconfirmed trades
+If the conversation belongs to an active initiative, name the related project.
 
-### Betting logging rule
+If no project applies, leave it empty.
 
-Only add a row to `modules/betting/ledger/bets.csv` if Nic writes the bet in the exact format ending with `- bet!`
+### 4. Distill the conversation
 
-Do not log:
+Do not paste full chat transcripts into NicOS.
 
-- casual discussion
-- possible bets
-- opinion-only chat
-- model experiments without an actual bet
+Instead, extract:
 
-## Step 5. Update lessons only when they are useful
+- decisions
+- lessons
+- rules
+- required file updates
 
-Lessons should capture:
+### 5. Decide whether action is required
 
-- repeated mistakes
-- repeated strengths
-- clarified rules
-- practical insights worth reusing
+Use `action_required: yes` if something in NicOS should change.
 
-Keep them short, specific, and actionable.
+Use `action_required: no` if the conversation was useful but does not yet require a system update.
 
-## Step 6. Distill project knowledge back into modules
+## Sync Rules
+
+### Distillation rule
+
+NicOS should store distilled knowledge, not raw conversational volume.
+
+### Module boundary rule
+
+Knowledge should go into the right permanent module.
+
+Examples:
+
+- trading ideas -> `modules/trading/`
+- betting logic -> `modules/betting/`
+- kitchen or restaurant insights -> `modules/restaurant/`
+- self-review insights -> `modules/reflection/`
+
+### Project boundary rule
 
 Projects are temporary workspaces.
 
-Modules are the permanent knowledge layer.
+If the conversation belongs to a project, update the relevant project file first.
 
-When a project generates durable insight:
+If the conversation creates long-term knowledge, also distill the lasting lesson into the right module.
 
-- move the lasting lesson into the right module
-- keep the project focused on execution and context
-- do not let project folders become permanent knowledge dumps
+### Execution logging rule
 
-## Step 7. Preserve boundaries
+Execution logs should only contain real actions.
 
-- Trading logic stays in the trading module.
-- Betting logic stays in the betting module.
-- Investing content stays separate from trading.
-- Project execution notes stay inside projects until they are distilled.
+#### Trading
 
-If a note belongs in a different module, move it there rather than forcing it into the wrong one.
+Only add a row to `modules/trading/journal/trades.csv` if Nic explicitly says the trade was taken.
+
+#### Betting
+
+Only add a row to `modules/betting/ledger/bets.csv` if Nic writes the bet in the exact format ending with `- bet!`
+
+If execution is unclear, do not log it.
+
+## Example: Trading Sync
+
+```yaml
+# NICOS_SYNC_V1
+source_workspace: "Bobby | Investments"
+date: "2026-07-02"
+module_affected:
+  - "Trading"
+project_affected:
+  - "Trading Improvement 2026"
+key_decisions:
+  - "WOLF remains a watch, not an automatic entry."
+  - "Wait for bullish confirmation near support."
+lessons_learned:
+  - "Planning a trade is not the same as taking a trade."
+rules_added_or_changed:
+  - "Do not log a trade unless Nic explicitly says it was taken."
+files_to_update:
+  - "modules/trading/context/latest_chat_sync.md"
+  - "modules/trading/watchlist/WOLF.md"
+  - "modules/trading/lessons/lessons_learned.md"
+action_required: yes
+action_summary:
+  - "Refresh the WOLF watchlist."
+  - "Update the latest trading sync."
+  - "Do not touch the trade journal unless execution is confirmed."
+```
+
+## Example: Kitchen Sync
+
+```yaml
+# NICOS_SYNC_V1
+source_workspace: "Bobby | Kitchen"
+date: "2026-07-02"
+module_affected:
+  - "Restaurant"
+project_affected:
+  - "Japanese Restaurant Development"
+key_decisions:
+  - "Concept clarity matters before expanding menu ideas."
+lessons_learned:
+  - "Operational unknowns should be written down early."
+rules_added_or_changed:
+  - "Separate brainstorming from actual business decisions."
+files_to_update:
+  - "projects/active/japanese-restaurant-development/README.md"
+  - "modules/restaurant/README.md"
+action_required: yes
+action_summary:
+  - "Update the restaurant development project."
+  - "Capture any durable concept lesson in the restaurant module."
+```
+
+## Example: Reflection Sync
+
+```yaml
+# NICOS_SYNC_V1
+source_workspace: "Bobby | Reflection"
+date: "2026-07-02"
+module_affected:
+  - "Reflection"
+project_affected:
+  - ""
+key_decisions:
+  - "Decision quality matters more than weekly activity."
+lessons_learned:
+  - "A skipped action can be a disciplined win."
+rules_added_or_changed:
+  - "Do not add complexity that does not improve judgment."
+files_to_update:
+  - "modules/reflection/README.md"
+  - "system/principles.md"
+action_required: yes
+action_summary:
+  - "Preserve the reflection lesson in the permanent module."
+  - "Update system principles only if the lesson affects NicOS broadly."
+```
+
+## Example: Betting Sync
+
+```yaml
+# NICOS_SYNC_V1
+source_workspace: "Bobby | Betting"
+date: "2026-07-02"
+module_affected:
+  - "Betting"
+project_affected:
+  - ""
+key_decisions:
+  - "Use the league model by default unless Nic explicitly says the match is a cup."
+  - "Require at least +3% edge before betting."
+lessons_learned:
+  - "Model discipline matters more than action."
+rules_added_or_changed:
+  - "Only log a bet if Nic writes it in the exact format ending with '- bet!'"
+files_to_update:
+  - "modules/betting/context/latest_betting_sync.md"
+  - "modules/betting/rules/decision_model.md"
+  - "modules/betting/lessons/lessons_learned.md"
+action_required: yes
+action_summary:
+  - "Update the current betting context and rules."
+  - "Do not update the ledger unless a real bet was logged."
+```
 
 ## Final Rule
 
-If there is doubt about whether an action really happened, treat it as not executed and do not log it.
+If there is doubt about whether something belongs in NicOS, prefer a smaller distilled update over a larger raw dump.
