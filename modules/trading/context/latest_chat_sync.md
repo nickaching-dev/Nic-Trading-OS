@@ -4,7 +4,8 @@
 
 - Sync date: `2026-07-02`
 - Source: imported trading mentorship context
-- Status: this is a context sync, not a live market update
+- Status: this is a historical context sync, not a live market update
+- Current `WOLF` state, including any live position update, must be read from `modules/trading/watchlist/WOLF.md`
 
 ## Current Operating Context
 
@@ -44,6 +45,6 @@
 
 ## Next Useful Actions
 
-- Keep `WOLF` on watch, not auto-buy.
-- Update the watchlist only after checking the current chart.
-- Use the checklist and risk rules before any order is placed.
+- Read `modules/trading/watchlist/WOLF.md` before changing the current `WOLF` plan or position.
+- Update the watchlist levels only after checking the current chart.
+- Use the checklist and risk rules before any new order or change is made.

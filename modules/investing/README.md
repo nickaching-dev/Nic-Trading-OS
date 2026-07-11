@@ -1,10 +1,10 @@
 # Investing Module
 
-This module stores Nic's investing learning, stock research, chart analysis, long-term stock theses, swing-trade planning notes, and risk-management context for the Investments workspace.
+This module stores Nic's investing learning, stock research, chart analysis, long-term stock theses, swing-trade planning notes, and risk-management context from `📈 Bobby | Investments`.
 
 ## Status
 
-Active with a closed session sync applied on `2026-07-02`.
+Active with a catch-up sync applied on `2026-07-11`.
 
 ## Purpose
 
@@ -15,10 +15,10 @@ Active with a closed session sync applied on `2026-07-02`.
 
 ## Current separation
 
-- `WOLF` is stored here as a speculative swing-trade candidate and paper-trade learning note.
+- `WOLF` discussion here creates research and learning notes, but the canonical live watchlist and current position state belong to `modules/trading/watchlist/WOLF.md`.
 - `ASX` is stored here as a long-term individual-stock investment thesis.
-- A hypothetical setup is not a real trade.
-- This does not overwrite the separate `modules/trading/watchlist/WOLF.md` record.
+- The earlier `WOLF` `43` to `52` setup remains a hypothetical paper-trade review.
+- This module preserves investing knowledge without overwriting Trading as the live source of truth for `WOLF`.
 
 ## Structure
 
@@ -26,6 +26,8 @@ Active with a closed session sync applied on `2026-07-02`.
 - `watchlist/WOLF.md`
 - `research/ASX.md`
 - `learning/chart_analysis_progress.md`
+- `learning/broker_cost_lessons.md`
+- `learning/wolf_paper_trade_review_2026-07-02.md`
 - `rules/investing_session_rules.md`
 
 ## Working Rule

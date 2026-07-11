@@ -4,12 +4,25 @@ These are the standard natural-language commands Nic can use with Codex inside N
 
 Commands should keep the system predictable, practical, and distilled.
 
+## Canonical Workspaces
+
+- `🏠 Bobby | HQ`
+- `📈 Bobby | Investments`
+- `🍣 Bobby | Kitchen`
+- `🌱 Bobby | Reflection`
+- `⚽ Bobby | Betting`
+
+These titles, emojis, capitalization, spacing, and wording are locked.
+
+Do not rename a canonical Bobby workspace without Nic's explicit approval.
+
 ## `Sync to NicOS`
 
 What it does:
 
-- Distills a conversation into clean NicOS updates using `NICOS_SYNC_V1`
+- Distills a meaningful closed session into clean NicOS updates using `NICOS_SYNC_V1`
 - Updates modules and projects without pasting raw transcripts
+- Preserves the difference between durable knowledge and casual conversation
 
 Files it may update:
 
@@ -22,7 +35,49 @@ Files it may update:
 
 Boundary:
 
-- Content from `Bobby | Betting` must not be written into NicOS unless Nic later explicitly reverses this decision
+- Content from `⚽ Bobby | Betting` must not be written into NicOS unless Nic later explicitly reverses this decision
+
+## `Catch Up Sync`
+
+What it does:
+
+- Distills multiple meaningful conversations since the last successful sync
+- Excludes duplicates, repeated material, and raw transcript content
+- Applies only the durable updates that change NicOS in a useful way
+
+Files it may update:
+
+- `projects/active/*/README.md`
+- `modules/*/context/*.md`
+- `modules/*/watchlist/*.md`
+- `modules/*/rules/*.md`
+- `modules/*/lessons/*.md`
+- `modules/*/reports/*.md`
+- `modules/trading/journal/trades.csv` only if Nic explicitly says the trade was taken
+- `DASHBOARD.md`, `projects/dashboard.md`, and `projects/project_index.md` only if the real system state changed
+
+## `Close session and prepare NicOS sync`
+
+What it does:
+
+- Ends a meaningful session deliberately instead of leaving it half-open
+- Prepares a clean distilled sync summary for a later `Sync to NicOS` or `Catch Up Sync`
+- Keeps the repository unchanged until Nic chooses to apply the sync
+
+Files it may update:
+
+- None by default
+
+## `Close without syncing`
+
+What it does:
+
+- Ends a session cleanly without creating repository changes
+- Keeps casual conversation, emotional support, brainstorming, and repeated material out of NicOS when they do not create durable knowledge
+
+Files it may update:
+
+- None
 
 ## `NicOS Status`
 
@@ -132,6 +187,22 @@ What it does:
 Files it may update:
 
 - None
+
+## `NicOS Health Check`
+
+What it does:
+
+- Runs a periodic consistency review instead of requiring a full repository audit after every sync
+- Checks dashboards, active projects, canonical source files, and stale duplication risks
+- Refreshes status files only where the real system state has changed
+
+Files it may update:
+
+- `DASHBOARD.md`
+- `projects/dashboard.md`
+- `projects/project_index.md`
+- `projects/active/*/README.md`
+- `system/*.md` if a workflow rule has genuinely changed
 
 ## `Rebuild Dashboard`
 

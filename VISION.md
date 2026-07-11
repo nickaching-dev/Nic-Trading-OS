@@ -95,9 +95,9 @@ NicOS should grow through focused modules rather than one giant system.
 Module status today:
 
 - Trading: active
-- Investing: active with a first live sync applied
+- Investing: active with ongoing live syncs applied
 - Restaurant: initialized with templates
-- Reflection: active with a first live sync applied
+- Reflection: active with ongoing live syncs applied
 - Business: placeholder
 - Health: placeholder
 - Learning: placeholder
@@ -136,7 +136,7 @@ It should:
 
 Betting is intentionally excluded from NicOS and is managed separately.
 
-The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
+The separate `⚽ Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
 
 # What NicOS Is NOT
 

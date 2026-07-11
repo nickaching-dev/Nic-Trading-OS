@@ -11,7 +11,7 @@ Workspaces are where conversations happen. They are not projects.
 
 Betting is intentionally excluded from NicOS and is managed separately.
 
-The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
+The separate `⚽ Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
 
 ## Active Projects
 
@@ -35,18 +35,19 @@ Modules store long-term knowledge.
 
 ## Current Focus
 
-- Continue live NicOS use.
+- Continue live NicOS use with deliberate session closing.
 - Keep module content distilled rather than transcript-based.
-- Populate modules gradually through real use.
-- Keep Reflection and Investing active through clean ongoing syncs.
+- Use periodic catch-up syncs and health checks instead of constant repository maintenance.
+- Preserve canonical source-of-truth files and locked workspace identities.
 
 ## Next Actions
 
-- Continue normal NicOS use.
-- Review sync quality across Reflection and Investing.
-- Continue syncing important Bobby conversations.
+- Use `Close session and prepare NicOS sync.` for meaningful sessions.
+- Use `Close without syncing` when a conversation should end cleanly without repository changes.
+- Continue periodic catch-up syncs for active modules.
+- Run NicOS health checks when the real system state needs review.
 - Refine module structure only where real use creates pressure.
-- Begin regular review cycles inside NicOS.
+- Keep normal review cycles lightweight and useful.
 
 ## Operating Principle
 

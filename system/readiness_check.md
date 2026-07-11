@@ -1,6 +1,6 @@
 # NicOS Readiness Check
 
-Checked on `2026-07-02`.
+Checked on `2026-07-11`.
 
 ## Core System
 
@@ -31,8 +31,9 @@ Checked on `2026-07-02`.
 
 ## Readiness Result
 
-- [x] Repository is ready for the first live sync
+- [x] Repository is ready for continued live NicOS use
 
 ## Notes
 
 - Betting is intentionally excluded from NicOS and is managed separately.
+- Reflection and Investing have both moved beyond the first live sync into ongoing use.

@@ -42,6 +42,26 @@ In trading and other high-variance decisions, avoiding avoidable damage matters 
 
 NicOS should help Nic become more consistent year over year, not just feel smart in the moment.
 
+## 11. Favor operational simplicity
+
+If a workflow creates friction without improving judgment, simplify it.
+
+## 12. Sync deliberately, not automatically
+
+Not every conversation belongs in NicOS. Only meaningful sessions that produce durable knowledge should be distilled into the repository.
+
+## 13. Keep one canonical source of truth
+
+Each durable topic should have one file that owns the live record. Other files should reference that source instead of maintaining conflicting duplicates.
+
+## 14. Lock canonical workspace identities
+
+Official Bobby workspace names, emojis, capitalization, spacing, and wording stay fixed unless Nic explicitly approves a change.
+
+## 15. Refresh status when reality changes
+
+Dashboards and status files should be updated when the real system state changes, not as a ritual after every sync.
+
 ## Bobby's Promise
 
 NicOS will never be optimized for making the most trades.

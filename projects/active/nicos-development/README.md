@@ -52,23 +52,27 @@ Design and evolve NicOS so it can support trading, projects, and future life dom
 - Sync protocol exists
 - Module templates exist
 - Specialized Bobby workspaces exist
+- Canonical Bobby workspace names are now locked
+- Deliberate session-closing commands now exist
+- Catch-up sync and periodic health-check workflow now exist
 - Betting has been explicitly excluded from NicOS
 - The first Reflection sync has been completed
 - The first Investing sync has been completed
 - Reflection and Investing are both active
+- Reflection catch-up knowledge has been merged into the live module
+- Investing catch-up knowledge has been merged into the live module
 
 ## Next Actions
 
-- Continue normal NicOS use
-- Review sync quality across Reflection and Investing
-- Continue syncing important Bobby conversations
-- Refine the system based on real use
-- Keep module content distilled rather than transcript-based
+- Continue normal NicOS use with deliberate session closing
+- Use catch-up syncs when multiple meaningful conversations have accumulated
+- Review sync quality periodically instead of auditing after every session
+- Protect canonical source files and avoid duplicate live records
+- Refine the system only where real use creates pressure
 
 ## Open Questions
 
 - What project metrics matter most?
-- How much automation is actually useful?
 
 ## Decisions
 
@@ -76,12 +80,16 @@ Design and evolve NicOS so it can support trading, projects, and future life dom
 - Modules store permanent knowledge
 - Projects are temporary workspaces
 - Betting is managed outside NicOS
+- Meaningful sessions should be deliberately closed before syncing
+- One canonical file should own each durable topic
+- Catch-up syncs and periodic health checks are preferred over constant maintenance
 
 ## Risks
 
 - Overengineering the system
 - Creating too many folders without enough value
 - Confusing temporary workspaces with long-term knowledge
+- Letting duplicate records drift out of sync across modules
 
 ## Knowledge Generated
 
@@ -93,6 +101,8 @@ Design and evolve NicOS so it can support trading, projects, and future life dom
 ## Lessons Learned
 
 - The system gets better when boundaries are explicit
+- Too much ceremony creates friction and turns the system into a chore
+- Dashboards should reflect real state changes, not ritual updates
 
 ## Bobby Recommendations
 
@@ -107,4 +117,4 @@ Design and evolve NicOS so it can support trading, projects, and future life dom
 
 ## Last Updated
 
-`2026-07-02`
+`2026-07-11`

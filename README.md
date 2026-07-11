@@ -79,9 +79,9 @@ Knowledge should continuously flow back into the permanent modules.
 ## Module status
 
 - `Trading`: active
-- `Investing`: active with a first live sync applied
+- `Investing`: active with ongoing live syncs applied
 - `Restaurant`: initialized with templates
-- `Reflection`: active with a first live sync applied
+- `Reflection`: active with ongoing live syncs applied
 - `Business`: placeholder
 - `Health`: placeholder
 - `Learning`: placeholder
@@ -129,9 +129,9 @@ The trading module is a beginner-friendly swing-trading operating system.
 
 Betting is intentionally excluded from NicOS and is managed separately.
 
-Content from `Bobby | Betting` must not be written into this repository unless Nic later explicitly reverses that decision.
+Content from `⚽ Bobby | Betting` must not be written into this repository unless Nic later explicitly reverses that decision.
 
-The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
+The separate `⚽ Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
 
 ## Projects
 

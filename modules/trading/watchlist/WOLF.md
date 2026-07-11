@@ -3,9 +3,23 @@
 ## Status
 
 - Ticker: `WOLF`
-- Current role: active learning watchlist name
+- Current role: canonical live watchlist record
 - Character: volatile and news-driven
 - Bias: interested near support, not at random prices
+
+## Canonical Source Rule
+
+- Other modules should reference this file for the current `WOLF` levels, trade planning, and live position state.
+
+## Last-Known Position State
+
+- Source workspace: `📈 Bobby | Investments`
+- Sync applied: `2026-07-11`
+- Shares: `3`
+- Average entry: `40.30 USD`
+- Status: `open unless later updated by Nic`
+- The earlier `43` to `52` setup remains a paper-trade review in Investing and is not this position.
+- The support and target levels below remain the last confirmed planning levels and were not auto-updated by this catch-up sync.
 
 ## Core Plan
 
@@ -57,5 +71,5 @@ Do not buy support blindly. Wait for bullish confirmation.
 
 ## Current Default
 
-- Decision: `watch`
-- Reason: the plan requires patience and bullish confirmation before entry
+- Decision: `review`
+- Reason: `WOLF` now has a last-known live position state, so any next action should start from the current position and a fresh chart review

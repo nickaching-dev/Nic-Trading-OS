@@ -9,6 +9,22 @@ This document defines the standard `Sync to NicOS` workflow.
 
 The purpose of a sync is to convert useful conversation output into clean, structured knowledge that improves the system over time.
 
+## Canonical Workspace Identities
+
+The official Bobby workspace names are locked.
+
+- `🏠 Bobby | HQ`
+- `📈 Bobby | Investments`
+- `🍣 Bobby | Kitchen`
+- `🌱 Bobby | Reflection`
+- `⚽ Bobby | Betting`
+
+These titles, emojis, capitalization, spacing, and wording must not change without Nic's explicit approval.
+
+`⚽ Bobby | Betting` is recorded only as a canonical external workspace title.
+
+It remains outside NicOS and must not sync into the repository.
+
 ## What Every Sync Must Identify
 
 Every sync should identify:
@@ -31,6 +47,10 @@ Use this Markdown/YAML-style structure when turning a conversation into a NicOS 
 # NICOS_SYNC_V1
 source_workspace: ""
 date: ""
+sync_type: "single_session"
+# Optional when sync_type is "catch_up"
+since_last_successful_sync: ""
+scope: ""
 module_affected:
   - ""
 project_affected:
@@ -56,10 +76,10 @@ Record where the thinking happened.
 
 Examples:
 
-- `Bobby | Investments`
-- `Bobby | Kitchen`
-- `Bobby | Reflection`
-- `Bobby | HQ`
+- `📈 Bobby | Investments`
+- `🍣 Bobby | Kitchen`
+- `🌱 Bobby | Reflection`
+- `🏠 Bobby | HQ`
 
 ### 2. Identify the module
 
@@ -103,6 +123,32 @@ Use `action_required: no` if the conversation was useful but does not yet requir
 
 NicOS should store distilled knowledge, not raw conversational volume.
 
+### Session-closing rule
+
+Meaningful sessions should be deliberately closed before they are synced.
+
+Use `Close session and prepare NicOS sync.` when the conversation produced durable knowledge that should later be distilled into NicOS.
+
+Use `Close without syncing` when the conversation should end cleanly without repository changes.
+
+### Sync-selection rule
+
+Casual conversation, emotional support, brainstorming, and repeated information should not be synced automatically.
+
+NicOS should only store durable knowledge that improves future decision-making.
+
+### Catch-up sync rule
+
+A catch-up sync may cover multiple meaningful conversations since the previous successful sync.
+
+It should exclude duplicates, repeated material, and raw transcript content.
+
+### Health-check rule
+
+NicOS should use weekly or periodic health checks instead of requiring a full repository audit after every individual sync.
+
+Dashboards and status files should be refreshed when the real state changes, not as ceremony.
+
 ### Module boundary rule
 
 Knowledge should go into the right permanent module.
@@ -114,11 +160,21 @@ Examples:
 - kitchen or restaurant insights -> `modules/restaurant/`
 - self-review insights -> `modules/reflection/`
 
+### Single-source-of-truth rule
+
+Each durable topic should have one canonical source of truth.
+
+When the same topic touches multiple modules, one file should own the live record and other modules should reference it instead of maintaining conflicting duplicates.
+
 ### Boundary rule
 
-Content from `Bobby | Betting` must not be written into NicOS unless Nic later explicitly reverses this decision.
+Content from `⚽ Bobby | Betting` must not be written into NicOS unless Nic later explicitly reverses this decision.
 
-The separate `Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
+The separate `⚽ Bobby | Betting` conversation may continue outside NicOS, but it must not sync into the repository.
+
+### Workspace-lock rule
+
+Renaming a canonical Bobby workspace requires explicit approval from Nic.
 
 ### Project boundary rule
 
@@ -142,8 +198,9 @@ If execution is unclear, do not log it.
 
 ```yaml
 # NICOS_SYNC_V1
-source_workspace: "Bobby | Investments"
+source_workspace: "📈 Bobby | Investments"
 date: "2026-07-02"
+sync_type: "single_session"
 module_affected:
   - "Trading"
 project_affected:
@@ -170,8 +227,9 @@ action_summary:
 
 ```yaml
 # NICOS_SYNC_V1
-source_workspace: "Bobby | Kitchen"
+source_workspace: "🍣 Bobby | Kitchen"
 date: "2026-07-02"
+sync_type: "single_session"
 module_affected:
   - "Restaurant"
 project_affected:
@@ -195,8 +253,9 @@ action_summary:
 
 ```yaml
 # NICOS_SYNC_V1
-source_workspace: "Bobby | Reflection"
+source_workspace: "🌱 Bobby | Reflection"
 date: "2026-07-02"
+sync_type: "single_session"
 module_affected:
   - "Reflection"
 project_affected:

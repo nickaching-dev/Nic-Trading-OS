@@ -3,7 +3,7 @@
 ## Meta
 
 - Date: `2026-07-02`
-- Source workspace: `Bobby | Reflection`
+- Source workspace: `🌱 Bobby | Reflection`
 - Lesson title: `Identity over outcomes`
 - Last updated: `2026-07-02`
 
