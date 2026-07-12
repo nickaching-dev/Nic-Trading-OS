@@ -4,6 +4,7 @@
 
 - Use `📈 Bobby | Investments` for investing learning, stock research, chart analysis, long-term stock theses, swing-trade planning notes, and risk-management context.
 - Store distilled knowledge here, not raw transcripts.
+- Do not store actual trades, positions, entries, exits, quantities, average prices, or P&L from this workspace unless Nic explicitly requests it.
 
 ## Core Separation
 
@@ -13,7 +14,7 @@
 ## Canonical Source Rule
 
 - Treat `WOLF` as a speculative swing-trade candidate.
-- Keep the canonical live `WOLF` watchlist and current position state in `modules/trading/watchlist/WOLF.md`.
+- Keep the canonical `WOLF` watchlist in `modules/trading/watchlist/WOLF.md`.
 - Keep the July 2 `43` to `52` setup classified as a hypothetical paper-trade review only.
 
 ## ASX Rule

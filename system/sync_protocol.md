@@ -160,6 +160,14 @@ Examples:
 - kitchen or restaurant insights -> `modules/restaurant/`
 - self-review insights -> `modules/reflection/`
 
+### Investments workspace boundary rule
+
+`📈 Bobby | Investments` is for education, research, chart analysis, investing principles, and risk-management learning only.
+
+Actual trades, positions, entries, exits, quantities, average prices, and P&L are managed separately in Nic's dedicated Codex trading room and must not be stored in NicOS from this workspace unless Nic explicitly requests it.
+
+When syncing from `📈 Bobby | Investments`, keep updates limited to research, chart-learning, paper-trade review, watchlist planning, and durable rules.
+
 ### Single-source-of-truth rule
 
 Each durable topic should have one canonical source of truth.
@@ -211,7 +219,7 @@ key_decisions:
 lessons_learned:
   - "Planning a trade is not the same as taking a trade."
 rules_added_or_changed:
-  - "Do not log a trade unless Nic explicitly says it was taken."
+  - "Do not log a trade or store live execution details from this workspace unless Nic explicitly asks for it."
 files_to_update:
   - "modules/trading/context/latest_chat_sync.md"
   - "modules/trading/watchlist/WOLF.md"
@@ -220,7 +228,7 @@ action_required: yes
 action_summary:
   - "Refresh the WOLF watchlist."
   - "Update the latest trading sync."
-  - "Do not touch the trade journal unless execution is confirmed."
+  - "Do not touch the trade journal or store live execution details from this workspace."
 ```
 
 ## Example: Kitchen Sync

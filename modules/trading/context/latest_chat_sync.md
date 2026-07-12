@@ -5,7 +5,7 @@
 - Sync date: `2026-07-02`
 - Source: imported trading mentorship context
 - Status: this is a historical context sync, not a live market update
-- Current `WOLF` state, including any live position update, must be read from `modules/trading/watchlist/WOLF.md`
+- Current `WOLF` watchlist plan must be read from `modules/trading/watchlist/WOLF.md`
 
 ## Current Operating Context
 

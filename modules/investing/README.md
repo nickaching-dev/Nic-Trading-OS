@@ -15,10 +15,10 @@ Active with a catch-up sync applied on `2026-07-11`.
 
 ## Current separation
 
-- `WOLF` discussion here creates research and learning notes, but the canonical live watchlist and current position state belong to `modules/trading/watchlist/WOLF.md`.
+- `WOLF` discussion here creates research and learning notes, while the canonical watchlist plan lives in `modules/trading/watchlist/WOLF.md`.
 - `ASX` is stored here as a long-term individual-stock investment thesis.
 - The earlier `WOLF` `43` to `52` setup remains a hypothetical paper-trade review.
-- This module preserves investing knowledge without overwriting Trading as the live source of truth for `WOLF`.
+- This module preserves investing knowledge without storing live execution data from `📈 Bobby | Investments`.
 
 ## Structure
 
@@ -33,3 +33,5 @@ Active with a catch-up sync applied on `2026-07-11`.
 ## Working Rule
 
 Use this module for distilled investment knowledge, not raw transcripts.
+
+Do not store actual trades, positions, entries, exits, quantities, average prices, or P&L from `📈 Bobby | Investments` unless Nic explicitly requests it.

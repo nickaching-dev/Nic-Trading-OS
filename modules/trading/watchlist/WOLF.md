@@ -9,17 +9,13 @@
 
 ## Canonical Source Rule
 
-- Other modules should reference this file for the current `WOLF` levels, trade planning, and live position state.
+- Other modules should reference this file for the current `WOLF` levels and trade planning.
 
-## Last-Known Position State
+## Boundary
 
-- Source workspace: `📈 Bobby | Investments`
-- Sync applied: `2026-07-11`
-- Shares: `3`
-- Average entry: `40.30 USD`
-- Status: `open unless later updated by Nic`
-- The earlier `43` to `52` setup remains a paper-trade review in Investing and is not this position.
-- The support and target levels below remain the last confirmed planning levels and were not auto-updated by this catch-up sync.
+- `📈 Bobby | Investments` may contribute education, research, chart analysis, investing principles, and risk-management learning.
+- Actual trades, positions, entries, exits, quantities, average prices, and P&L from that workspace must not be stored here unless Nic explicitly requests it.
+- The earlier `43` to `52` setup remains a paper-trade review in Investing.
 
 ## Core Plan
 
@@ -71,5 +67,5 @@ Do not buy support blindly. Wait for bullish confirmation.
 
 ## Current Default
 
-- Decision: `review`
-- Reason: `WOLF` now has a last-known live position state, so any next action should start from the current position and a fresh chart review
+- Decision: `watch`
+- Reason: the plan still requires patience and bullish confirmation before entry

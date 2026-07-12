@@ -13,15 +13,11 @@ This file stores the latest distilled Investing sync, not the full conversation.
 
 ## Durable Updates Applied
 
-### WOLF state change
+### WOLF boundary preserved
 
-- `WOLF` moved from hypothetical monitoring to a real position.
-- Last-known position state:
-  - Shares: `3`
-  - Average entry: `40.30 USD`
-  - Status: `open unless later updated by Nic`
-- This real position must not be confused with the earlier July 2 hypothetical paper trade.
-- The canonical live `WOLF` record remains `modules/trading/watchlist/WOLF.md`.
+- `WOLF` remains preserved here as chart-learning, research, and paper-trade review context.
+- Actual trades, positions, entries, exits, quantities, average prices, and P&L from `📈 Bobby | Investments` are intentionally excluded from NicOS unless Nic explicitly requests otherwise.
+- The July 2 hypothetical paper trade remains separate from any real-world execution.
 
 ### Completed experiment preserved
 
@@ -43,5 +39,5 @@ This file stores the latest distilled Investing sync, not the full conversation.
 
 ## Action
 
-- Use Trading for the canonical live `WOLF` watchlist and current position state.
+- Use Trading for `WOLF` watchlist structure, setup planning, and risk rules.
 - Use Investing for research, paper-trade review, broker-cost learning, and long-term thesis work.
